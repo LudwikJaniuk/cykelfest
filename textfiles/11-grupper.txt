@@ -1,0 +1,20 @@
+Antal grupper = 11
+Ge varje grupp en bokstav ('A' till 'K')
+X -> åker till Y -> och till Z
+Förrätt serveras av: A, B, C, D
+Huvudrätt serveras av: E, F, G, H
+Efterrätt serveras av: I, J, K
+
+A -> E -> J
+B -> F -> K
+C -> I -> G
+D -> H -> I
+E -> I -> B
+F -> J -> C
+G -> K -> D
+H -> K -> A
+I -> A -> F
+J -> B -> G
+K -> E -> C
+
+Antal kollisioner: 0
