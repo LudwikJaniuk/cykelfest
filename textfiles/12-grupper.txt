@@ -1,10 +1,12 @@
 Antal grupper = 12
+
+
 Ge varje grupp en bokstav ('A' till 'L')
-X -> åker till Y -> och till Z
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
 Förrätt serveras av: A, B, C, D
 Huvudrätt serveras av: E, F, G, H
 Efterrätt serveras av: I, J, K, L
-
 A -> E -> J
 B -> F -> K
 C -> G -> L

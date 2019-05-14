@@ -1,10 +1,16 @@
 Antal grupper = 13
+
+NOTERA: Detta antal rekommenderas inte. 
+Det kommer bli en kollision, några grupper kommer mötas två gånger.
+Du kanske kan omstrukturera grupperna så det blir 12 eller 14 istället?
+
+
 Ge varje grupp en bokstav ('A' till 'M')
-X -> åker till Y -> och till Z
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
 Förrätt serveras av: A, B, C, D, E
 Huvudrätt serveras av: F, G, H, I
 Efterrätt serveras av: J, K, L, M
-
 A -> F -> K
 B -> G -> L
 C -> H -> M

@@ -1,10 +1,16 @@
 Antal grupper = 10
+
+NOTERA: Detta antal rekommenderas inte. 
+Det kommer bli en kollision, några grupper kommer mötas två gånger.
+Du kanske kan omstrukturera grupperna så det blir 9 eller 11 istället?
+
+
 Ge varje grupp en bokstav ('A' till 'J')
-X -> åker till Y -> och till Z
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
 Förrätt serveras av: A, B, C, D
 Huvudrätt serveras av: E, F, G
 Efterrätt serveras av: H, I, J
-
 A -> E -> I
 B -> F -> J
 C -> H -> G

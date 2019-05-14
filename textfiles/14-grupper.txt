@@ -1,6 +1,9 @@
 Antal grupper = 14
+
+
 Ge varje grupp en bokstav ('A' till 'N')
-X -> åker till Y -> och till Z
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
 Förrätt serveras av: A, B, C, D, E
 Huvudrätt serveras av: F, G, H, I, J
 Efterrätt serveras av: K, L, M, N
@@ -18,4 +21,5 @@ K -> A -> G
 L -> B -> H
 M -> C -> I
 N -> F -> D
+
 Antal kollisioner: 0

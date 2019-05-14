@@ -1,0 +1,37 @@
+Antal grupper = 22
+
+NOTERA: Detta antal rekommenderas inte. 
+Det kommer bli en kollision, några grupper kommer mötas två gånger.
+Du kanske kan omstrukturera grupperna så det blir 21 eller 23 istället?
+
+
+Ge varje grupp en bokstav ('A' till 'V')
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
+Förrätt serveras av: A, B, C, D, E, F, G, H
+Huvudrätt serveras av: I, J, K, L, M, N, O
+Efterrätt serveras av: P, Q, R, S, T, U, V
+A -> I -> Q
+B -> J -> R
+C -> K -> S
+D -> L -> T
+E -> M -> U
+F -> N -> V
+G -> P -> O
+H -> J -> P
+I -> P -> B
+J -> Q -> C
+K -> R -> D
+L -> S -> E
+M -> T -> F
+N -> U -> G
+O -> V -> H
+P -> A -> J
+Q -> B -> K
+R -> C -> L
+S -> D -> M
+T -> E -> N
+U -> F -> O
+V -> I -> G
+
+Antal kollisioner: 1

@@ -24,3 +24,4 @@ som finns ligger färdiga genererade tilldelningar för de vanligaste
 storlekarna, så det är bara att ladda ner! Om du däremot behöver någonting 
 utanför det vanliga, så får du antingen kompilera programmet själv, eller 
 kontakta mig på ludvig punkt janiuk snabel-a gmail punkt com. 
+(Notera att antal grupper mindre än 9 är omöjligt)

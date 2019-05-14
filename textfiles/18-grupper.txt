@@ -1,0 +1,29 @@
+Antal grupper = 18
+
+
+Ge varje grupp en bokstav ('A' till 'R')
+
+"X -> Y -> Z" betyder att grupp X kommer få åka till grupp Y och grupp Z
+Förrätt serveras av: A, B, C, D, E, F
+Huvudrätt serveras av: G, H, I, J, K, L
+Efterrätt serveras av: M, N, O, P, Q, R
+A -> G -> N
+B -> H -> O
+C -> I -> P
+D -> J -> Q
+E -> K -> R
+F -> L -> M
+G -> M -> B
+H -> N -> C
+I -> O -> D
+J -> P -> E
+K -> Q -> F
+L -> R -> A
+M -> A -> H
+N -> B -> I
+O -> C -> J
+P -> D -> K
+Q -> E -> L
+R -> F -> G
+
+Antal kollisioner: 0

@@ -8,7 +8,7 @@ report n = "" ++
      else "") ++
   "\n\n\n" ++
   "Ge varje grupp en bokstav ('A' till " ++ (show $ letterIndex (n-1)) ++ ")\n\n" ++
-  "X -> åker till Y -> och till Z\n" ++
+  "\"X -> Y -> Z\" betyder att grupp X kommer få åka till grupp Y och grupp Z\n" ++
   "Förrätt serveras av: " ++ (intercalate ", " $ sort $ map letter $ filter ((==2).snd) members) ++ "\n" ++
   "Huvudrätt serveras av: " ++ (intercalate ", " $ sort $ map letter $ filter ((==1).snd) members) ++ "\n" ++
   "Efterrätt serveras av: " ++ (intercalate ", " $ sort $ map letter $ filter ((==0).snd) members) ++ "\n" ++
@@ -118,6 +118,5 @@ report n = "" ++
 
 main = do
   args <- getArgs
-
   putStrLn $ report (read $ head args)
   
